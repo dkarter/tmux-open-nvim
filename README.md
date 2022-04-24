@@ -1,4 +1,4 @@
-# Tmux open
+# Tmux open (with Neovim Support)
 
 Plugin for opening highlighted selection directly from Tmux copy mode.
 
@@ -33,7 +33,7 @@ In copy mode:
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'tmux-plugins/tmux-open'
+    set -g @plugin 'dkarter/tmux-open-nvim'
 
 Hit `prefix + I` to fetch the plugin and source it. You should now be able to
 use the plugin.
@@ -42,7 +42,7 @@ use the plugin.
 
 Clone the repo:
 
-    $ git clone https://github.com/tmux-plugins/tmux-open ~/clone/path
+    $ git clone https://github.com/dkarter/tmux-open-nvim ~/clone/path
 
 Add this line to the bottom of `.tmux.conf`:
 
