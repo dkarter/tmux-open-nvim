@@ -1,6 +1,6 @@
 # Tmux open (with Neovim Support)
 
-Plugin for opening highlighted selection directly from Tmux copy mode.
+Plugin for opening highlighted selection directly from Tmux copy mode. Forked from [tmux-plugins/tmux-open](https://github.com/tmux-plugins/tmux-open) and removed variables specific to vim that prevented Neovim from opening.
 
 Tested and working on Linux, OSX and Cygwin.
 
